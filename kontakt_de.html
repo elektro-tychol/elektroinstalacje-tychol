@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <title>Kontakt - ELEKTRO-TYCHOL</title>
+  <style>
+    body { background: #101010; color: #fff; font-family: Arial; text-align: center; padding: 40px; }
+    a { color: #00c6ff; text-decoration: none; font-weight: bold; }
+    input, textarea {
+      width: 300px; padding: 10px; margin: 10px 0;
+      border-radius: 5px; border: none;
+    }
+    form { display: inline-block; text-align: left; background: #1c1c1c; padding: 20px; border-radius: 10px; }
+    label { display: block; margin-top: 15px; }
+    button {
+      background: #00c6ff; color: #000; border: none; padding: 10px 20px;
+      border-radius: 5px; cursor: pointer; font-weight: bold;
+    }
+    .lang { margin: 30px 0; }
+  </style>
+</head>
+<body>
+  <h1>Kontakt</h1>
+    <p><strong>Inhaber:</strong> Bartosz Tyszczuk – <a href="tel:+48537435946">+48 537 435 946</a></p>
+    <p><strong>Partner:</strong> Hubert Żak – <a href="tel:+48669505915">+48 669 505 915</a></p>
+    <p><strong>Dokumentation, Kostenvoranschläge:</strong> Artur Białas – <a href="tel:+48608411802">+48 608 411 802</a></p>
+  <form>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required />
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required />
+    <label for="message">Nachricht:</label>
+    <textarea id="message" name="message" rows="6" required></textarea>
+    <button type="submit">Senden</button>
+  </form>
+  <div class="lang">
+    <p><a href="kontakt.html">PL</a> | <a href="kontakt_en.html">EN</a> | <a href="kontakt_de.html">DE</a></p>
+  </div>
+  <p><a href="index.html">← Powrót</a></p>
+</body>
+</html>
